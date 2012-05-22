@@ -23,6 +23,8 @@
 		902C500A141FC5EC0033909D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902C5008141FC5EC0033909D /* InfoPlist.strings */; };
 		902C500C141FC5EC0033909D /* MailTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 902C500B141FC5EC0033909D /* MailTests.h */; };
 		902C500E141FC5EC0033909D /* MailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 902C500D141FC5EC0033909D /* MailTests.m */; };
+		902C5018141FC6A30033909D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902C5017141FC6A30033909D /* MessageUI.framework */; };
+		90FD73FE142DE081007A1512 /* mobiletuts-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FD73FD142DE081007A1512 /* mobiletuts-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +42,24 @@
 		902C4FDD141FC5EC0033909D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		902C4FDF141FC5EC0033909D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		902C4FE1141FC5EC0033909D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		902C4FE5141FC5EC0033909D /* Mail-Info.plist */ = {isa = PBXFileReference; path = "Mail-Info.plist"; sourceTree = "<group>"; };
+		902C4FE5141FC5EC0033909D /* Mail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mail-Info.plist"; sourceTree = "<group>"; };
 		902C4FE7141FC5EC0033909D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		902C4FE9141FC5EC0033909D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		902C4FEB141FC5EC0033909D /* Mail-Prefix.pch */ = {isa = PBXFileReference; path = "Mail-Prefix.pch"; sourceTree = "<group>"; };
-		902C4FEC141FC5EC0033909D /* MailAppDelegate.h */ = {isa = PBXFileReference; path = MailAppDelegate.h; sourceTree = "<group>"; };
+		902C4FEB141FC5EC0033909D /* Mail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mail-Prefix.pch"; sourceTree = "<group>"; };
+		902C4FEC141FC5EC0033909D /* MailAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailAppDelegate.h; sourceTree = "<group>"; };
 		902C4FED141FC5EC0033909D /* MailAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailAppDelegate.m; sourceTree = "<group>"; };
 		902C4FF0141FC5EC0033909D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		902C4FF2141FC5EC0033909D /* MailViewController.h */ = {isa = PBXFileReference; path = MailViewController.h; sourceTree = "<group>"; };
+		902C4FF2141FC5EC0033909D /* MailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
 		902C4FF3141FC5EC0033909D /* MailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
 		902C4FF6141FC5EC0033909D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MailViewController.xib; sourceTree = "<group>"; };
 		902C4FFD141FC5EC0033909D /* MailTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		902C4FFE141FC5EC0033909D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		902C5007141FC5EC0033909D /* MailTests-Info.plist */ = {isa = PBXFileReference; path = "MailTests-Info.plist"; sourceTree = "<group>"; };
+		902C5007141FC5EC0033909D /* MailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailTests-Info.plist"; sourceTree = "<group>"; };
 		902C5009141FC5EC0033909D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		902C500B141FC5EC0033909D /* MailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailTests.h; sourceTree = "<group>"; };
 		902C500D141FC5EC0033909D /* MailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailTests.m; sourceTree = "<group>"; };
+		902C5017141FC6A30033909D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		90FD73FD142DE081007A1512 /* mobiletuts-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobiletuts-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902C5018141FC6A30033909D /* MessageUI.framework in Frameworks */,
 				902C4FDE141FC5EC0033909D /* UIKit.framework in Frameworks */,
 				902C4FE0141FC5EC0033909D /* Foundation.framework in Frameworks */,
 				902C4FE2141FC5EC0033909D /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +110,7 @@
 		902C4FDC141FC5EC0033909D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				902C5017141FC6A30033909D /* MessageUI.framework */,
 				902C4FDD141FC5EC0033909D /* UIKit.framework */,
 				902C4FDF141FC5EC0033909D /* Foundation.framework */,
 				902C4FE1141FC5EC0033909D /* CoreGraphics.framework */,
@@ -130,6 +136,7 @@
 		902C4FE4141FC5EC0033909D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90FD73FD142DE081007A1512 /* mobiletuts-logo.png */,
 				902C4FE5141FC5EC0033909D /* Mail-Info.plist */,
 				902C4FE6141FC5EC0033909D /* InfoPlist.strings */,
 				902C4FE9141FC5EC0033909D /* main.m */,
@@ -227,6 +234,7 @@
 				902C4FE8141FC5EC0033909D /* InfoPlist.strings in Resources */,
 				902C4FF1141FC5EC0033909D /* MainWindow.xib in Resources */,
 				902C4FF7141FC5EC0033909D /* MailViewController.xib in Resources */,
+				90FD73FE142DE081007A1512 /* mobiletuts-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +380,7 @@
 				GCC_PREFIX_HEADER = "Mail/Mail-Prefix.pch";
 				INFOPLIST_FILE = "Mail/Mail-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,6 +392,7 @@
 				GCC_PREFIX_HEADER = "Mail/Mail-Prefix.pch";
 				INFOPLIST_FILE = "Mail/Mail-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,6 +450,7 @@
 				902C5013141FC5EC0033909D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		902C5014141FC5EC0033909D /* Build configuration list for PBXNativeTarget "MailTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +459,7 @@
 				902C5016141FC5EC0033909D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
